@@ -221,8 +221,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leave early, be on time." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNY-jx-VWE">
-                                <rect key="frame" x="74" y="657" width="271" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coba coba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNY-jx-VWE">
+                                <rect key="frame" x="74" y="657" width="126" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -682,7 +682,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ody-8q-aNz"/>
-        <segue reference="GsE-PE-0Eg"/>
+        <segue reference="oz8-kh-3ES"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
