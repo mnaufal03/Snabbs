@@ -11,11 +11,13 @@ import UIKit
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    
     
-
+    
+    
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.estimatedRowHeight = 300.0
+//        tableView.rowHeight = UITableViewAutomaticDimension
         // Do any additional setup after loading the view.
     }
     var dataList : [(time:String, title:String, setting:String)] =
@@ -25,7 +27,17 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         (time:"07:00", title:"berangkat kantor", setting:"leave in q week")
     ]
     
+   
+   
+    
+    
+    
+    
+    
+     
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+         
         return dataList.count
        }
        
@@ -37,5 +49,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return cell
         
        }
+    
+   
 
 }
