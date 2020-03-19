@@ -343,25 +343,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KEq-My-6pc">
-                                <rect key="frame" x="56" y="484" width="300" height="355"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="KEq-My-6pc">
+                                <rect key="frame" x="56" y="447" width="300" height="392"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ScheduleTableViewCell" rowHeight="114" id="K8S-Te-cJ7" customClass="ScheduleTableViewCell" customModule="budhal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="300" height="114"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="ScheduleTableViewCell" rowHeight="108" id="K8S-Te-cJ7" customClass="ScheduleTableViewCell" customModule="budhal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="300" height="108"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="K8S-Te-cJ7" id="MzQ-2u-cdH">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="108"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spazio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5a-yc-NMC">
-                                                    <rect key="frame" x="21" y="64" width="47" height="18"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1w-Dl-j01">
                                                     <rect key="frame" x="20" y="27" width="60" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -380,12 +373,27 @@
                                                     <rect key="frame" x="254" y="26" width="25" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" backgroundImage="trash" catalog="system"/>
+                                                    <connections>
+                                                        <action selector="doDelete:" destination="0qN-b0-666" eventType="touchUpInside" id="FWM-pX-09c"/>
+                                                        <action selector="doDelete:forEvent:" destination="0qN-b0-666" eventType="touchUpInside" id="ALX-Uc-jdC"/>
+                                                        <action selector="onclickDelete:forEvent:" destination="0qN-b0-666" eventType="touchUpInside" id="Xo0-pm-feL"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8S-l1-Nf6">
                                                     <rect key="frame" x="257" y="57" width="20" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button" image="square.and.arrow.up" catalog="system"/>
+                                                    <connections>
+                                                        <segue destination="DfL-Rb-eu0" kind="show" id="Wb9-3t-itn"/>
+                                                    </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spazio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5a-yc-NMC">
+                                                    <rect key="frame" x="21" y="64" width="212" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -460,7 +468,7 @@
         <!--Share-->
         <scene sceneID="imO-jT-4D8">
             <objects>
-                <viewController id="DfL-Rb-eu0" customClass="Share" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="DfL-Rb-eu0" customClass="Share" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="02n-0O-3yg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -511,6 +519,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Hd7-81-I0a"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aOP-49-emH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XEN-FZ-dxy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
