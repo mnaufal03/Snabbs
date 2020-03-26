@@ -20,6 +20,9 @@
 		78F5DAB22428F9670069F56E /* ShareeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5DAB12428F9670069F56E /* ShareeeViewController.swift */; };
 		85075892242280E600A72E78 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85075891242280E600A72E78 /* ScheduleTableViewCell.swift */; };
 		85075894242283CE00A72E78 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85075893242283CE00A72E78 /* HomeViewController.swift */; };
+		8585B558242CC6C100622E88 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585B557242CC6C100622E88 /* ScheduleModel.swift */; };
+		8585B55A242CE26600622E88 /* EditSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585B559242CE26600622E88 /* EditSchedule.swift */; };
+		8585B55C242D27AB00622E88 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585B55B242D27AB00622E88 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		78F5DAB12428F9670069F56E /* ShareeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareeeViewController.swift; sourceTree = "<group>"; };
 		85075891242280E600A72E78 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		85075893242283CE00A72E78 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8585B557242CC6C100622E88 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		8585B559242CE26600622E88 /* EditSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSchedule.swift; sourceTree = "<group>"; };
+		8585B55B242D27AB00622E88 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,12 @@
 				7899272B2418F70C00BC27A2 /* ViewController.swift */,
 				7899272D2418F70C00BC27A2 /* Main.storyboard */,
 				78F5DAB12428F9670069F56E /* ShareeeViewController.swift */,
-				78CFC91C242A138D0012FA4E /* AddSchedule.swift */,
 				7843D13624247DF40017D46F /* ShareViewController.swift */,
+				8585B559242CE26600622E88 /* EditSchedule.swift */,
+				8585B55B242D27AB00622E88 /* SummaryViewController.swift */,
+				78CFC91C242A138D0012FA4E /* AddSchedule.swift */,
 				85075893242283CE00A72E78 /* HomeViewController.swift */,
+				8585B557242CC6C100622E88 /* ScheduleModel.swift */,
 				85075891242280E600A72E78 /* ScheduleTableViewCell.swift */,
 				789927302418F70D00BC27A2 /* Assets.xcassets */,
 				789927322418F70D00BC27A2 /* LaunchScreen.storyboard */,
@@ -277,10 +286,13 @@
 				7843D13724247DF40017D46F /* ShareViewController.swift in Sources */,
 				78F5DAB22428F9670069F56E /* ShareeeViewController.swift in Sources */,
 				78CFC91D242A138D0012FA4E /* AddSchedule.swift in Sources */,
+				8585B558242CC6C100622E88 /* ScheduleModel.swift in Sources */,
+				8585B55C242D27AB00622E88 /* SummaryViewController.swift in Sources */,
 				85075894242283CE00A72E78 /* HomeViewController.swift in Sources */,
 				7899272C2418F70C00BC27A2 /* ViewController.swift in Sources */,
 				789927282418F70C00BC27A2 /* AppDelegate.swift in Sources */,
 				85075892242280E600A72E78 /* ScheduleTableViewCell.swift in Sources */,
+				8585B55A242CE26600622E88 /* EditSchedule.swift in Sources */,
 				7899272A2418F70C00BC27A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
