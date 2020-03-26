@@ -554,7 +554,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PXq-bI-tkE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="897"/>
+            <point key="canvasLocation" x="1557" y="897"/>
         </scene>
         <!--Shareee View Controller-->
         <scene sceneID="8ys-s2-96r">
@@ -613,7 +613,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECf-aB-ix9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2487" y="897"/>
+            <point key="canvasLocation" x="2248" y="897"/>
         </scene>
         <!--Set Before-->
         <scene sceneID="MmE-mu-X7V">
