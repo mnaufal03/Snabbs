@@ -49,6 +49,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return cell
         
        }
+    @IBAction func buttonshare(_ sender: UIButton) {
+        let vc = ShareViewController()
+        vc.modalPresentationStyle = .custom
+        present(vc, animated: true, completion: nil)
+    }
+    
     
    
 
