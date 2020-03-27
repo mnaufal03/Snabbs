@@ -1,21 +1,18 @@
 //
-//  ShareeeViewController.swift
+//  SharePageViewController.swift
 //  budhal
 //
-//  Created by Faisal on 23/03/20.
+//  Created by Faisal on 27/03/20.
 //  Copyright © 2020 Snabb. All rights reserved.
 //
 
 import UIKit
 
-class ShareeeViewController: UIViewController {
+class SharePageViewController: UIViewController {
 
-    
-    let menuHeight = UIScreen.main.bounds.height / 3
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.frame.origin.y += menuHeight
-        print("berhasil")
+
         // Do any additional setup after loading the view.
     }
     
