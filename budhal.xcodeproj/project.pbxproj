@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7843D13724247DF40017D46F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843D13624247DF40017D46F /* ShareViewController.swift */; };
+		788A92E0242DE54200EAE493 /* EmptyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788A92DF242DE54200EAE493 /* EmptyPage.swift */; };
+		788A92E2242DE55C00EAE493 /* HomeAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788A92E1242DE55C00EAE493 /* HomeAlertViewController.swift */; };
+		788A92E4242DEA6700EAE493 /* SharePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788A92E3242DEA6700EAE493 /* SharePageViewController.swift */; };
 		789927282418F70C00BC27A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789927272418F70C00BC27A2 /* AppDelegate.swift */; };
 		7899272A2418F70C00BC27A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789927292418F70C00BC27A2 /* SceneDelegate.swift */; };
 		7899272C2418F70C00BC27A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899272B2418F70C00BC27A2 /* ViewController.swift */; };
@@ -17,7 +20,6 @@
 		7899273F2418F70D00BC27A2 /* budhalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899273E2418F70D00BC27A2 /* budhalTests.swift */; };
 		7899274A2418F70D00BC27A2 /* budhalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789927492418F70D00BC27A2 /* budhalUITests.swift */; };
 		78CFC91D242A138D0012FA4E /* AddSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFC91C242A138D0012FA4E /* AddSchedule.swift */; };
-		78F5DAB22428F9670069F56E /* ShareeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F5DAB12428F9670069F56E /* ShareeeViewController.swift */; };
 		85075892242280E600A72E78 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85075891242280E600A72E78 /* ScheduleTableViewCell.swift */; };
 		85075894242283CE00A72E78 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85075893242283CE00A72E78 /* HomeViewController.swift */; };
 		8585B558242CC6C100622E88 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585B557242CC6C100622E88 /* ScheduleModel.swift */; };
@@ -44,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		7843D13624247DF40017D46F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		788A92DF242DE54200EAE493 /* EmptyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPage.swift; sourceTree = "<group>"; };
+		788A92E1242DE55C00EAE493 /* HomeAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAlertViewController.swift; sourceTree = "<group>"; };
+		788A92E3242DEA6700EAE493 /* SharePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePageViewController.swift; sourceTree = "<group>"; };
 		789927242418F70C00BC27A2 /* budhal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budhal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789927272418F70C00BC27A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		789927292418F70C00BC27A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +64,6 @@
 		789927492418F70D00BC27A2 /* budhalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budhalUITests.swift; sourceTree = "<group>"; };
 		7899274B2418F70D00BC27A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78CFC91C242A138D0012FA4E /* AddSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSchedule.swift; sourceTree = "<group>"; };
-		78F5DAB12428F9670069F56E /* ShareeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareeeViewController.swift; sourceTree = "<group>"; };
 		85075891242280E600A72E78 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		85075893242283CE00A72E78 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8585B557242CC6C100622E88 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
@@ -117,9 +121,11 @@
 			children = (
 				789927272418F70C00BC27A2 /* AppDelegate.swift */,
 				789927292418F70C00BC27A2 /* SceneDelegate.swift */,
+				788A92DF242DE54200EAE493 /* EmptyPage.swift */,
+				788A92E1242DE55C00EAE493 /* HomeAlertViewController.swift */,
 				7899272B2418F70C00BC27A2 /* ViewController.swift */,
 				7899272D2418F70C00BC27A2 /* Main.storyboard */,
-				78F5DAB12428F9670069F56E /* ShareeeViewController.swift */,
+				788A92E3242DEA6700EAE493 /* SharePageViewController.swift */,
 				7843D13624247DF40017D46F /* ShareViewController.swift */,
 				8585B559242CE26600622E88 /* EditSchedule.swift */,
 				8585B55B242D27AB00622E88 /* SummaryViewController.swift */,
@@ -284,8 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7843D13724247DF40017D46F /* ShareViewController.swift in Sources */,
-				78F5DAB22428F9670069F56E /* ShareeeViewController.swift in Sources */,
+				788A92E0242DE54200EAE493 /* EmptyPage.swift in Sources */,
 				78CFC91D242A138D0012FA4E /* AddSchedule.swift in Sources */,
+				788A92E2242DE55C00EAE493 /* HomeAlertViewController.swift in Sources */,
 				8585B558242CC6C100622E88 /* ScheduleModel.swift in Sources */,
 				8585B55C242D27AB00622E88 /* SummaryViewController.swift in Sources */,
 				85075894242283CE00A72E78 /* HomeViewController.swift in Sources */,
@@ -293,6 +300,7 @@
 				789927282418F70C00BC27A2 /* AppDelegate.swift in Sources */,
 				85075892242280E600A72E78 /* ScheduleTableViewCell.swift in Sources */,
 				8585B55A242CE26600622E88 /* EditSchedule.swift in Sources */,
+				788A92E4242DEA6700EAE493 /* SharePageViewController.swift in Sources */,
 				7899272A2418F70C00BC27A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
